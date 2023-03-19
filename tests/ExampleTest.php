@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace AlmasAlright\SingularityAssessmentTest\Tests;
 
 use PHPUnit\Framework\TestCase;
 
