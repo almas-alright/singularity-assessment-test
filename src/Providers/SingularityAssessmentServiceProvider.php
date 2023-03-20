@@ -2,6 +2,7 @@
 
 namespace AlmasAlright\SingularityAssessmentTest\Providers;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Support\Facades\Artisan;
 
 class SingularityAssessmentServiceProvider extends ServiceProvider
 {
@@ -14,5 +15,6 @@ class SingularityAssessmentServiceProvider extends ServiceProvider
     {
         $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'team-members');
+        Artisan::call('migrate', ['--path' => __DIR__ . '/../database/migrations']);
     }
 }
