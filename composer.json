@@ -1,6 +1,12 @@
 {
     "name": "almas-alright/singularity-assessment-test",
     "description": "Laravel package to generate a complete CRUD operation for sinngularity assessment test",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/almas-alright/singularity-assessment-test"
+        }
+    ],
     "keywords": [
         "almas-alright",
         "singularity-assessment-test"
