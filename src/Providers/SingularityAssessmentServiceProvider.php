@@ -2,8 +2,8 @@
 
 namespace AlmasAlright\SingularityAssessmentTest\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Artisan;
+use Illuminate\Support\ServiceProvider;
 
 class SingularityAssessmentServiceProvider extends ServiceProvider
 {
